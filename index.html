@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tickets</title>
+    <script src="./scripts/script1.js"></script>
+</head>
+<body>
+    <a href="./schilderijen.html">schilderijen</a>
+    <div id="formulier">
+        <h1>Tickets bestellen</h1>
+        <p>Een ticket kost €15,-. Heeft u een kortigskaart? Dan kost een ticket €10,-.</p>
+        <form>
+            <input type="text" id="firstname" name="firstname" placeholder="voornaam"><input type="text" id="lastname" name="lastname" placeholder="achternaam"><br>
+            <input type="number" id="tickets" value="tickets" placeholder="aantal tickets"><br>
+            <label for="kortigskaart">Kortingskaart</label>
+            <input type="checkbox" name="kortigskaart" id="kortingskaart" value="kortingskaart">
+        </form>
+        <button onclick="bestellen()">Bestelen</button>
+    </div>
+</body>
+</html>
